@@ -7,8 +7,9 @@ function TaskInput(props) {
     <input
       type="text"
       id="newTask"
+      className="flex-1"
       value={props.newTaskTitle || props.title}
-      onChange={handleChange}
+      onChange={(e) => handleChange(e)}
     />
   );
 }

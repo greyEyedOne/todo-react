@@ -13,9 +13,9 @@ function App() {
   ]);
 
   return (
-    <div className="min-w-md max-w-lg min-h-md max-h-lg p-2 bg-slate-500 shadow-sm rounded-md">
-      <h1 className="text-3xl">ToDo</h1>
-      <List tasks={tasks} />
+    <div className="min-w-md max-w-xl min-h-md h-fit p-6 shadow-sm rounded-md m-4 border border-orange-400 dark:border-indigo-300">
+      <h1 className="text-3xl m-8 font-extrabold">ToDo</h1>
+      <List tasks={tasks} setTasks={setTasks} />
       <Form tasks={tasks} setTasks={setTasks} />
     </div>
   );
