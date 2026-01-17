@@ -1,6 +1,6 @@
 # Functionality
 
-This app provides an easy interface to add, edit, and delete tasks.
+This app provides an easy interface to add, edit, and delete tasks, save one in Local Storage, load the latesttt saved item and clear storage from it.
 
 # How to use
 
