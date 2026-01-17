@@ -29,6 +29,7 @@ function Form(props) {
           setNewTaskTitle={setNewTaskTitle}
         />
         <button
+          className="bg-orange-400 hover:bg-orange-800 dark:bg-indigo-600 dark:hover:bg-indigo-400"
           onClick={(e) => {
             handleSubmit(e);
           }}
