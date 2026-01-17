@@ -15,7 +15,9 @@ This app provides an easy interface to add, edit, and delete tasks.
 
 # What I'd improve next
 
-- Add types (first things first)
+- Add comments
+- Add types
+- Code refactioring
 - Add an interface to open a full task (now it's only one string, but it might be helpful to be laconic ;) )
 - Add a favicon
 - add a KeyDown event when editing the task and push Enter to save it
