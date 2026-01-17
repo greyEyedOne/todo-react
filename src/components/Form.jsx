@@ -5,16 +5,19 @@ import TaskInput from "./TaskInput";
 function Form(props) {
   function handleSubmit(e) {
     e.preventDefault();
-    const id = nanoid();
-    const newTask = {
-      id: id,
-      key: id,
-      title: newTaskTitle,
-      checked: false,
-    };
 
-    props.setTasks([...props.tasks, newTask]);
-    setNewTaskTitle("Add something else?");
+    if (newTaskTitle) {
+      const id = nanoid();
+      const newTask = {
+        id: id,
+        key: id,
+        title: newTaskTitle,
+        checked: false,
+      };
+
+      props.setTasks([...props.tasks, newTask]);
+      setNewTaskTitle("Add something else?");
+    } else window.alert("Do you really want to add an empty task?");
   }
 
   const [newTaskTitle, setNewTaskTitle] = useState(
