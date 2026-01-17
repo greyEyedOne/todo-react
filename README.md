@@ -15,12 +15,13 @@ This app provides an easy interface to add, edit, and delete tasks.
 
 # What I'd improve next
 
-- Add comments
+- Code commenting
 - Add types
 - Code refactioring
 - Add an interface to open a full task (now it's only one string, but it might be helpful to be laconic ;) )
 - Add a favicon
 - add a KeyDown event when editing the task and push Enter to save it
+- add a confirmation that the ToDo list has been saved / loaded
 
 # React + Vite
 
