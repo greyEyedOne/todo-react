@@ -13,7 +13,7 @@ function App() {
   ]);
 
   const storageButtonClasses =
-    "border border-orange-400 hover:border-orange-700 h-[4.5rem] text-orange-800 dark:border-indigo-300 dark:text-indigo-200 dark:hover:border-indigo-200 sm:h-10";
+    "border border-orange-400 hover:border-orange-700 h-[4.5rem] text-orange-700! dark:text-indigo-200! dark:border-indigo-300 dark:text-indigo-200 dark:hover:border-indigo-200 sm:h-10";
 
   function saveItems() {
     localStorage.setItem("tasks", JSON.stringify(tasks));
